@@ -3,20 +3,28 @@
 <p align="center">
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=for-the-badge&logo=python)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge&logo=streamlit)
+![Streamlit](https://img.shields.io/badge/Streamlit-Live-red?style=for-the-badge&logo=streamlit)
 ![Google Gemini](https://img.shields.io/badge/Google-Gemini-4285F4?style=for-the-badge&logo=google)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-v1.0-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
 
 </p>
 
 <p align="center">
 
-### 💬 A production-ready conversational AI chatbot powered by Google Gemini and Streamlit.
+### 💬 Production-Ready Conversational AI Chatbot
 
-Designed to demonstrate clean software architecture, Object-Oriented Programming, secure API management, conversation memory, and modern AI application development.
+Built with **Google Gemini**, **Streamlit**, and **Object-Oriented Python** to demonstrate modern AI application development, secure API management, conversation memory, and clean software architecture.
 
 </p>
+
+---
+
+# 🌐 Live Demo
+
+🚀 **Try the application here**
+
+### https://memory-chatbot-gemini-25q3c4mearaem3fntqtzze.streamlit.app/
 
 ---
 
@@ -49,26 +57,30 @@ Designed to demonstrate clean software architecture, Object-Oriented Programming
 - 🤖 Google Gemini integration
 - ⚡ Fast AI responses
 
+---
+
 ## 💻 Software Engineering
 
-- 🏗️ Object-Oriented Architecture
-- 🧪 Backend testing
-- 📝 Logging support
-- 🔒 Secure API key management
-- ⚠️ Error handling
-
-## 🎨 User Experience
-
-- 👋 Welcome screen
-- ℹ️ About section
-- 🗑️ Clear chat button
-- 🔑 API key override from sidebar
-- 🎨 Professional UI
-- 👨‍💻 Personal branding
+- 🏗️ Object-Oriented Programming (OOP)
+- 📝 Logging
+- 🧪 Backend Testing
+- 🔒 Secure API Key Management
+- ⚠️ Exception Handling
 
 ---
 
-# 🛠️ Tech Stack
+## 🎨 User Experience
+
+- 👋 Welcome Screen
+- ℹ️ About Project Section
+- 🗑️ Clear Chat Button
+- 🔑 API Key Override
+- 🌙 Modern Dark UI
+- 👨‍💻 Personal Branding
+
+---
+
+# 🛠 Tech Stack
 
 | Technology | Purpose |
 |------------|----------|
@@ -79,22 +91,22 @@ Designed to demonstrate clean software architecture, Object-Oriented Programming
 
 ---
 
-# 🏛️ System Architecture
+# 🏛 System Architecture
 
 ```text
-                User
-                  │
-                  ▼
-         Streamlit Frontend
-                  │
-                  ▼
-          ChatBot Backend
-                  │
-                  ▼
-          Google Gemini API
-                  │
-                  ▼
-          AI Generated Response
+                    User
+                      │
+                      ▼
+              Streamlit Frontend
+                      │
+                      ▼
+               ChatBot Backend
+                      │
+                      ▼
+             Google Gemini API
+                      │
+                      ▼
+              AI Generated Response
 ```
 
 ---
@@ -126,7 +138,7 @@ memory-chatbot-gemini/
 
 # ⚙️ Installation
 
-## 1️⃣ Clone the Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/varun0852/memory-chatbot-gemini.git
@@ -136,16 +148,16 @@ cd memory-chatbot-gemini
 
 ---
 
-## 2️⃣ Create a Virtual Environment
+### Create Virtual Environment
 
-### Windows
+**Windows**
 
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
-### Linux / macOS
+**Linux / macOS**
 
 ```bash
 python3 -m venv .venv
@@ -154,7 +166,7 @@ source .venv/bin/activate
 
 ---
 
-## 3️⃣ Install Dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -162,7 +174,7 @@ pip install -r requirements.txt
 
 ---
 
-## 4️⃣ Configure Environment Variables
+### Configure Environment Variables
 
 Create a `.env` file.
 
@@ -170,13 +182,13 @@ Create a `.env` file.
 GOOGLE_API_KEY=YOUR_GOOGLE_GEMINI_API_KEY
 ```
 
-Get your free API key from:
+Get your free API key:
 
 https://aistudio.google.com/app/apikey
 
 ---
 
-## ▶️ Run the Application
+### Run the Application
 
 ```bash
 streamlit run app.py
@@ -203,39 +215,40 @@ python tests/test_backend.py
 This project demonstrates:
 
 - ✅ Object-Oriented Programming
-- ✅ Clean Project Structure
+- ✅ Clean Software Architecture
 - ✅ Backend Testing
 - ✅ Logging
-- ✅ Environment Variable Management
-- ✅ Secure API Handling
+- ✅ Secure API Management
+- ✅ Environment Variables
 - ✅ Conversation Memory
-- ✅ Professional Streamlit UI
+- ✅ Streamlit Deployment
+- ✅ Professional GitHub Repository
 
 ---
 
 # 📚 What I Learned
 
-Building this project helped me strengthen my understanding of:
+During this project I improved my understanding of:
 
-- Google Gemini API integration
-- Building conversational AI applications
-- Object-Oriented Programming in Python
-- Secure API key management
-- Backend testing and debugging
-- Git & GitHub workflows
-- Logging and error handling
-- Streamlit application development
+- Google Gemini API Integration
+- Building AI Chat Applications
+- Object-Oriented Python
+- Environment Variable Management
+- Backend Testing
+- Logging & Debugging
+- Git & GitHub Workflow
+- Streamlit Deployment
 
 ---
 
 # 🔮 Future Improvements
 
-- 📄 PDF Chat Support
+- 📄 PDF Chat
 - ⚡ Streaming Responses
 - 🐳 Docker Support
 - 🔄 CI/CD Pipeline
 - 💾 Chat Export
-- 🎨 Theme Switcher
+- 🌙 Theme Switcher
 - 🤖 Multi-model Support
 - 🚀 Migration to Google GenAI SDK
 
@@ -251,15 +264,13 @@ Building this project helped me strengthen my understanding of:
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/varun0852)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:diwakarvarun752@gmail.com)
 
-Feel free to connect with me or discuss AI, Machine Learning, and Generative AI.
-
 ---
 
 # ⭐ Support
 
 If you found this project helpful, please consider giving it a ⭐ on GitHub.
 
-Your support motivates me to continue building and sharing AI projects.
+It motivates me to continue building and sharing AI projects.
 
 ---
 
@@ -271,7 +282,7 @@ This project is licensed under the **MIT License**.
 
 <p align="center">
 
-### Built with ❤️ by Varun
+## ❤️ Built with Passion by Varun
 
 **AI Engineer • Generative AI • Machine Learning**
 
