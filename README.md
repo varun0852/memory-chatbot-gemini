@@ -20,11 +20,7 @@ Built with **Google Gemini**, **Streamlit**, and **Object-Oriented Python** to d
 
 ---
 
-# 🌐 Live Demo
-
-🚀 **Try the application here**
-
-### https://memory-chatbot-gemini-25q3c4mearaem3fntqtzze.streamlit.app/
+[![Live Demo](https://img.shields.io/badge/Live-Demo-success?style=for-the-badge&logo=streamlit)](https://memory-chatbot-gemini-25q3c4mearaem3fntqtzze.streamlit.app/)
 
 ---
 
